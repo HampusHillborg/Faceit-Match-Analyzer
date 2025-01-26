@@ -10,7 +10,7 @@ load_dotenv()
 API_KEY = os.getenv("FACEIT_API_KEY")
 
 # Endast dessa kartor analyseras
-VALID_MAPS = {"Mirage", "Train", "Nuke", "Ancient", "Anubis", "Inferno", "Dust 2"}
+VALID_MAPS = {"Mirage", "Train", "Nuke", "Ancient", "Anubis", "Inferno", "Dust2"}
 
 # Initiera Flask-servern
 app = Flask(__name__)
