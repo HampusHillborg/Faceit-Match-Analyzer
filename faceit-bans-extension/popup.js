@@ -5,7 +5,7 @@ document.getElementById("fetchData").addEventListener("click", async function() 
         return;
     }
 
-    let apiUrl = `http://127.0.0.1:5000/analyze?room_id=${roomId}`;
+    let apiUrl = `https://faceit-match-analyzer.onrender.com/analyze?room_id=${roomId}`;
 
     try {
         let response = await fetch(apiUrl);
