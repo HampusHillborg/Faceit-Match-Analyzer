@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+instance/
+.env
+venv/
+.venv/
+
+# Flask
+*.log
+*.pid
+*.swp
+*.swo
+
+# Faceit API Keys (se till att din nyckel inte laddas upp!)
+.env
+config.json
+
+# Chrome Extension
+node_modules/
+dist/
+*.crx
+*.pem
+manifest.json~
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS-specifika filer
+.DS_Store
+Thumbs.db

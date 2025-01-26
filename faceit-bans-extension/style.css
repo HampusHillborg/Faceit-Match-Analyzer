@@ -1,0 +1,98 @@
+/* 🎨 Grundläggande styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* 🏆 Huvudcontainer */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 🎭 Lagkort */
+.team-card {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+/* 🏅 Spelarkort */
+.player-card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+.player-card h3 {
+    color: #ffcc00;
+}
+
+/* 📊 Tabellen */
+table.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table.styled-table th, table.styled-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table.styled-table th {
+    background-color: #ffcc00;
+    color: black;
+}
+
+table.styled-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+table.styled-table tr:hover {
+    background-color: #ddd;
+}
+
+/* 🔥 Färgkodning */
+.low-played {
+    background-color: rgba(255, 99, 71, 0.8); /* Röd */
+    color: white;
+}
+
+.medium-played {
+    background-color: rgba(255, 165, 0, 0.8); /* Orange */
+    color: white;
+}
+
+.high-played {
+    background-color: rgba(144, 238, 144, 0.8); /* Grön */
+    color: black;
+}
